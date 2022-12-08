@@ -1,23 +1,56 @@
+html * {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+:root {
+    --color: rgb(26, 23, 65);
+  }
+  
+
 .form {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    margin-top: 200px;
+    margin-top: 120px;
 }
 .input {
+	padding-left: 20px;
+	padding-right: 20px;
     width: 400px;
-    height: 50px;
+    height: 40px;
     margin: 10px;
     border-style: solid;
-    border-color: cadetblue;
-    border-radius: 5px;
+    border-color: var(--color);
+    border-radius: 15px;
 }
 .button {
     width: 200px;
-    height: 5px;
+    height: 40px;
     margin: 10px;
-    color: cadetblue;
+    text-align: center;
+    color: var(--color);
     border-style: solid;
-    border-color: cadetblue;
-    border-radius: 5px;
+    border-color: var(--color);
+    border-radius: 15px;
+}
+.button:Hover {
+	background-color:var(--color);
+    color: white;
+}
+.title {
+    color: var(--color);
+	font-size: 100px;
+    margin: 40px;
+}
+.image {
+	position: absolute;
+    left: 30px;
+    top: 30px;
+    color: var(--color);
+}
+.advanced {
+	position: absolute;
+    left: 950px;
+    top: 30px;
+    color: var(--color);
+
 }
