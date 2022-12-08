@@ -41,13 +41,13 @@ html * {
 	font-size: 140px;
     margin: 30px;
 }
-.image {
+.left {
 	position: absolute;
     left: 30px;
     top: 30px;
     color: var(--color);
 }
-.advanced {
+.right {
 	position: absolute;
     left: 1100px;
     top: 30px;
@@ -56,6 +56,6 @@ html * {
 }
 .word {
     position: absolute;
-    top: 240px;
-    left: 550px;
+    top: 248px;
+    left: 748px;
 }
