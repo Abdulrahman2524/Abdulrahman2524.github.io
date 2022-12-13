@@ -10,31 +10,34 @@
  
         <a href="index.html" class="right">Google Search</a>
          
-        <form action="https://www.google.com/search" class="advance_form">
+        <form action="https://www.google.com/search" class="">
 
-        <h2>Advanced Search</h2>
-        <div>
-            <h4>Find pages with...</h4>
-            <h4 style="position: absolute; left:400px; top:50px;">To do this in the search box.</h4>
-        </div>
+        <h2 class="first_line">Advanced Search</h2>
 
-        <div class="space">all these words:
-            <input type="text" name="as_q" style="margin-left:65px; margin-right:35px;"> Type the important words: tri-colour rat terrier 
-        </div>
+        <div class="blanks">
+
+            <p>Find pages with...</p>
+            <p class="instraction">To do this in the search box.</p>
+
+        <label class="label"><span>all these words:</span>
+            <input type="text" name="as_q" class="input_advanced one"><span>Type the important words: tri-colour rat terrier</span>
+        </label><br><br>
                 
-        <div class="space">this exact word or phrase:
-            <input type="text" name="as_epq" style="margin-right:35px;"> Put exact words in quotes: "rat terrier" </div>
+        <label class="label"><span>exact word or phrase:</span>
+            <input type="text" name="as_epq" class="input_advanced two"><span>Put exact words in quotes: "rat terrier"</span>
+        </label><br><br>
                 
-        <div class="space">any of these words:
-            <input type="text" name="as_oq" style="margin-left:40px; margin-right:35px;"> Type OR between all the words you want: miniature OR standard 
-        </div>
+        <label class="label"><span>any of these words:</span>
+            <input type="text" name="as_oq" class="input_advanced three"><span>OR between all the words you want: miniature OR standard</span>
+        </label><br><br>
                 
-        <div class="space">none of these words:
-            <input type="text" name="as_eq" style="margin: left 30px; margin-right:35px;"> Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+        <label class="label"><span> of these words:</span>
+            <input type="text" name="as_eq" class="input_advanced four"><span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+        </label><br><br>        
+        
+        <input type="submit" value="Google Advanced" class="advanced_button">  
+
         </div>
-            
-        <input type="submit" value="Google Advanced" class="button">  
-    
          </form>
     </body>
 </html>

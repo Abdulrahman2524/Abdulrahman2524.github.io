@@ -59,7 +59,68 @@ html * {
     top: 248px;
     left: 755px;
 }
-.space {
-    margin-right:50px;
-	margin-bottom:20px;
+.advance_form {
+    margin-top: 150px;
+}
+.first_line {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: rgb(194, 0, 0);
+    font-size: 20px;
+}
+.instraction {
+    position: absolute;
+    right: 335px;
+    top: 200px;
+}
+.blanks {
+    margin: 50px;
+}
+
+span {
+    font-size: 15px;
+    color: rgb(75, 73, 73);
+}
+p {
+    color: rgb(75, 73, 73);
+}
+.input_advanced {
+    width: 40%;
+    height: 25px;
+}
+.one {
+    margin-left: 65px;
+    margin-right: 30px;
+}
+.two {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.three {
+    margin-left: 44px;
+    margin-right: 30px;
+}
+.four {
+    margin-left: 69px;
+    margin-right: 30px;
+}
+.advanced_button {
+    width: 150px;
+    height: 25px;
+    margin: 10px;
+    font-size: 15px;
+    background-color: #4d90fe;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: #4d90fe;
+    border-radius: 2px;
+    position: absolute;
+    left: 543px;
+}
+.advanced_button:hover {
+    background-color: #4381e6;
+    border-color: #4381e6;
+
 }
