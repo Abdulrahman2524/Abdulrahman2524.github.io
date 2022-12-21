@@ -1,10 +1,10 @@
 html * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: arial,sans-serif;
     font-size: 20px;
 
 }
 :root {
-    --color: rgb(26, 23, 65);
+    --color: rgb(70, 70, 70);
   }
   
 
@@ -19,22 +19,33 @@ html * {
     height: 40px;
     margin: 10px;
     border-style: solid;
-    border-color: var(--color);
+    border-color: rgb(0 0 0 / 20%);
     border-radius: 25px;
+    border-width: 1px;
+    outline: none;
+}
+input:hover {
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+    transition: all 200ms ease-out;
 }
 .button {
-    width: 250px;
-    height: 40px;
-    margin: 10px;
+    background-color: rgb(243, 242, 242);
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
     color: var(--color);
-    border-style: solid;
-    border-color: var(--color);
-    border-radius: 20px;
+    border-style: none;
+    border-radius: 5px;
+    position: center;
+    font-size: 15px;
 }
 .button:Hover {
-	background-color:var(--color);
-    color: white;
+    color: var(--color);
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+    transition: all 200ms ease-out;
 }
 .title {
     color: var(--color);
@@ -56,37 +67,39 @@ html * {
 }
 .word {
     position: absolute;
-    top: 248px;
-    left: 755px;
+    color: #4285f4;
+    font-size: 16px;
+    left: 725px;
+    top: 195px;
+    font-family: roboto-regular, arial, sans-serif;
 }
+
 .advance_form {
     margin-top: 150px;
 }
 .first_line {
     margin-left: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     margin-top: 100px;
     color: rgb(194, 0, 0);
     font-size: 20px;
 }
-.instraction {
-    position: absolute;
-    right: 335px;
-    top: 200px;
+.second_line {
+    display: flex;
 }
 .blanks {
     margin: 50px;
 }
 
 span {
-    font-size: 15px;
+    font-size: 13px;
     color: rgb(75, 73, 73);
 }
 p {
     color: rgb(75, 73, 73);
 }
 .input_advanced {
-    width: 40%;
+    width: 42%;
     height: 25px;
 }
 .one {
@@ -117,10 +130,19 @@ p {
     border-color: #4d90fe;
     border-radius: 2px;
     position: absolute;
-    left: 543px;
+    left: 540px;
 }
 .advanced_button:hover {
     background-color: #4381e6;
     border-color: #4381e6;
 
+}
+.google_icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+.line {
+    border-bottom: 1px solid #ebebeb;
 }
